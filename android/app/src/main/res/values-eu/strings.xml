@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por android/tools/gen_strings.py: no editar a mano. -->
+<resources>
+    <string name="app_title">Mus</string>
+    <string name="tagline">Bikoteka mus, 8 erregerekin</string>
+    <string name="back">Atzera</string>
+    <string name="cancel">Utzi</string>
+    <string name="next">Hurrengoa</string>
+    <string name="skip">Saltatu</string>
+    <string name="start">Hasi</string>
+    <string name="onb1_title">Bikoteka mus</string>
+    <string name="onb1_body">Aurrean duzun lagunarekin jokatzen duzu aurkako bikotearen kontra. 40 tantora iristen den lehen bikoteak irabazten du.</string>
+    <string name="onb2_title">Lau jokaldi</string>
+    <string name="onb2_body">Esku bakoitzean handia, txikia, pareak eta jokoa (edo puntua) jokatzen dira. Enbidatu, onartu edo bota hordagoa.</string>
+    <string name="onb3_title">Keinuak lagunarekin</string>
+    <string name="onb3_body">Egin keinuak lagunari zer daukazun esateko: lagunak bakarrik ikusten ditu. Hemen ez dago apusturik: tantoak puntuazioa baino ez dira.</string>
+    <string name="login_google_soon">Sartu Googlerekin (laster)</string>
+    <string name="login_email_soon">Sartu emailarekin (laster)</string>
+    <string name="login_guest_title">Gonbidatu gisa jokatu</string>
+    <string name="public_name">Izen publikoa</string>
+    <string name="public_name_hint">2 eta 20 karaktere artean. Beste jokalariek ikusiko dute.</string>
+    <string name="consent_analytics">Onartzen dut erabilera-estatistika anonimoak bidaltzea jokoa hobetzeko</string>
+    <string name="login_guest">Jarraitu</string>
+    <string name="no_gambling_notice">Benetako dirurik gabeko jokoa: ez dago apusturik, saririk ez fitxa trukagarririk.</string>
+    <string name="hello_name">Kaixo, %1$s</string>
+    <string name="profile">Profila</string>
+    <string name="settings">Ezarpenak</string>
+    <string name="play_bots">Partida boten aurka</string>
+    <string name="play_bots_desc">Zu eta bot lagun bat bi boten aurka. Konexiorik gabe dabil.</string>
+    <string name="play_now">Jokatu</string>
+    <string name="level_facil">Erraza</string>
+    <string name="level_normal">Normala</string>
+    <string name="level_dificil">Zaila</string>
+    <string name="quick_match">Partida azkarra</string>
+    <string name="quick_match_desc">Mailaren araberako parekatzea benetako jokalariekin</string>
+    <string name="private_room">Gela pribatua</string>
+    <string name="private_room_desc">Sortu mahai bat eta partekatu esteka WhatsApp bidez</string>
+    <string name="leagues">Koadrilako ligak</string>
+    <string name="leagues_desc">Denboraldiak eta sailkapena lagunekin</string>
+    <string name="shop">Denda eta Bazkidea</string>
+    <string name="shop_desc">Karta-sortak eta tapeteak. Harrapakin-kutxarik gabe.</string>
+    <string name="soon">LASTER</string>
+    <string name="proto_notice">Prototipoa: online partidak, sailkapena eta erosketak hurrengo faseetan iritsiko dira.</string>
+    <string name="soon_quick">Rating bidezko (Glicko-2) partida azkarra 4. fasean iritsiko da. Jende falta bada, botek beteko dituzte hutsuneak.</string>
+    <string name="soon_private">Kode edo esteka bidezko gela pribatuak zerbitzariarekin iritsiko dira (2. eta 3. faseak).</string>
+    <string name="soon_leagues">Denboraldi, sailkapen eta historialdun liga pribatuak 4. fasean iritsiko dira.</string>
+    <string name="soon_shop">Bazkide harpidetza eta kosmetikoak (karta-sortak eta tapeteak) 5. fasean iritsiko dira. Ezer ez ausazko ordainpekorik, eta inoiz ez benetako dirurik.</string>
+    <string name="bot_right">Koldo</string>
+    <string name="bot_partner">Maite</string>
+    <string name="bot_left">Rosi</string>
+    <string name="team_us">Gu</string>
+    <string name="team_them">Haiek</string>
+    <string name="history">Historia</string>
+    <string name="score_desc">%1$s: %2$d/%3$d tanto</string>
+    <string name="lance_grande">Handia</string>
+    <string name="lance_chica">Txikia</string>
+    <string name="lance_pares">Pareak</string>
+    <string name="lance_juego">Jokoa</string>
+    <string name="lance_punto">Puntua</string>
+    <string name="phase_mus">Mus</string>
+    <string name="phase_descarte">Deskartea</string>
+    <string name="phase_fin_mano">Eskuaren amaiera</string>
+    <string name="phase_fin_partida">Partidaren amaiera</string>
+    <string name="short_ordago">Hordago</string>
+    <string name="short_paso">Pasoan</string>
+    <string name="short_querido">Onartua %1$d</string>
+    <string name="short_no_querido">Ez onartua (%1$d)</string>
+    <string name="short_sin_apuesta">Enbidorik ez</string>
+    <string name="short_no_hay">Ez dago</string>
+    <string name="badge_mano">ESKU</string>
+    <string name="badge_dealer">Banatzailea</string>
+    <string name="badge_pares_si">Pareak bai</string>
+    <string name="badge_pares_no">Pareak ez</string>
+    <string name="badge_juego_si">Jokoa bai</string>
+    <string name="badge_juego_no">Jokoa ez</string>
+    <string name="discarded_n">%1$d aldatu</string>
+    <string name="discarding">Deskartatzen…</string>
+    <string name="discard_done">Prest</string>
+    <string name="ordago_on_table">HORDAGO!</string>
+    <string name="bet_on_table">Enbidoa: %1$d</string>
+    <string name="deje_info">Onartzen ez bada: %1$d</string>
+    <string name="mus_round">%1$d. mus txanda</string>
+    <string name="hand_n">%1$d. eskua</string>
+    <string name="my_points">%1$d puntu</string>
+    <string name="senas">Keinuak</string>
+    <string name="waiting_discards">Deskarteen zain…</string>
+    <string name="waiting_for">%1$s(r)en txanda…</string>
+    <string name="discard_hint">Ukitu aldatu nahi dituzun kartak</string>
+    <string name="discard_n">Deskartatu (%1$d)</string>
+    <string name="act_mus">Mus</string>
+    <string name="act_no_mus">Musik ez</string>
+    <string name="act_descarto">%1$d aldatu</string>
+    <string name="act_paso">Paso</string>
+    <string name="act_envido_n">Enbido %1$d</string>
+    <string name="act_raise_n">%1$d gehiago</string>
+    <string name="act_quiero">Iduki</string>
+    <string name="act_no_quiero">Ez dut nahi</string>
+    <string name="act_ordago">Hordago!</string>
+    <string name="act_quiero_ordago">Hordagoa iduki!</string>
+    <string name="act_sena">%1$s</string>
+    <string name="next_hand">Hurrengo eskua</string>
+    <string name="rematch">Mendekua</string>
+    <string name="you_win">Irabazi duzue!</string>
+    <string name="you_lose">Haiek irabazi dute</string>
+    <string name="hand_end_n">%1$d. eskuaren amaiera</string>
+    <string name="score_line">Gu %1$d – %2$d Haiek</string>
+    <string name="out_ordago_querido">Hordagoa onartua</string>
+    <string name="out_paso">Pasoan</string>
+    <string name="out_querido">%1$d(e)ra onartua</string>
+    <string name="out_no_querido">Ez onartua (+%1$d)</string>
+    <string name="out_sin_apuesta">Bikote batek bakarrik: enbidorik ez</string>
+    <string name="out_no_hay">Inork ez du</string>
+    <string name="award_deje">uztea</string>
+    <string name="award_apuesta">enbidoa</string>
+    <string name="award_paso">pasoan</string>
+    <string name="award_jugada">jokaldia</string>
+    <string name="award_ordago">hordagoa</string>
+    <string name="exit_title">Partida utzi?</string>
+    <string name="exit_body">Partida hau galduko duzu. Online partidetan, uzteak zigorra dakar.</string>
+    <string name="exit_confirm">Irten</string>
+    <string name="history_hand">%1$d. eskua</string>
+    <string name="history_past">Aurreko eskuak</string>
+    <string name="history_hand_line">%1$d. eskua: Gu +%2$d · Haiek +%3$d</string>
+    <string name="senas_title">Keinu bat egin</string>
+    <string name="senas_hint">Lagunak bakarrik ikusten du; aurkariak ez dira konturatzen.</string>
+    <string name="partner_senas">%1$s(r)en keinuak:</string>
+    <string name="senas_left">Esku honetan %1$d keinu geratzen zaizkizu</string>
+    <string name="sena_dos_reyes">Bi errege</string>
+    <string name="sena_tres_reyes">Hiru errege</string>
+    <string name="sena_dos_ases">Bi bateko</string>
+    <string name="sena_tres_ases">Hiru bateko</string>
+    <string name="sena_duples">Dupleak</string>
+    <string name="sena_medias">Erdiak</string>
+    <string name="sena_31">31koa</string>
+    <string name="sena_ciego">Itsua</string>
+    <string name="gesto_dos_reyes">Beheko ezpaina hozkatu</string>
+    <string name="gesto_tres_reyes">Bi ezpainak hozkatu</string>
+    <string name="gesto_dos_ases">Mihi-punta atera</string>
+    <string name="gesto_tres_ases">Mihia alboratu</string>
+    <string name="gesto_duples">Bekainak altxatu</string>
+    <string name="gesto_medias">Ahoa okertu</string>
+    <string name="gesto_31">Begi-keinu egin</string>
+    <string name="gesto_ciego">Begiak itxi</string>
+    <string name="card_name">%2$s %1$s</string>
+    <string name="card_selected">%1$s, hautatua</string>
+    <string name="rating_soon">Glicko-2 sailkapena online jokoarekin</string>
+    <string name="stat_played">Jokatutako partidak</string>
+    <string name="stat_won">Irabaziak</string>
+    <string name="stat_hands">Jokatutako eskuak</string>
+    <string name="stat_streak">Uneko bolada / onena</string>
+    <string name="stat_ordagos">Irabazitako / galdutako hordagoak</string>
+    <string name="stat_points">Aldeko – aurkako tantoak</string>
+    <string name="set_appearance">Itxura</string>
+    <string name="set_theme">Gaia</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Argia</string>
+    <string name="theme_dark">Iluna</string>
+    <string name="set_contrast">Kontraste handia</string>
+    <string name="set_text_size">Testuaren tamaina</string>
+    <string name="size_normal">Normala</string>
+    <string name="size_large">Handia</string>
+    <string name="size_xlarge">Oso handia</string>
+    <string name="set_game">Jokoa</string>
+    <string name="set_bot_speed">Boten abiadura</string>
+    <string name="speed_slow">Motela</string>
+    <string name="speed_normal">Normala</string>
+    <string name="speed_fast">Azkarra</string>
+    <string name="set_reyes">Erregeak</string>
+    <string name="reyes_8">8 errege</string>
+    <string name="reyes_4">4 errege</string>
+    <string name="set_target">Tantoak partidako</string>
+    <string name="target_40">40</string>
+    <string name="target_30">30</string>
+    <string name="target_25">25</string>
+    <string name="set_turn_time">Txandako denbora</string>
+    <string name="time_30">30 s</string>
+    <string name="time_60">60 s</string>
+    <string name="time_15">15 s</string>
+    <string name="set_sound">Soinua</string>
+    <string name="set_haptics">Bibrazioa</string>
+    <string name="set_privacy">Pribatutasuna</string>
+    <string name="privacy_summary">Prototipo honek zure izena, ezarpenak eta estatistikak gailuan bakarrik gordetzen ditu. Ez du daturik bidaltzen inongo zerbitzarira.</string>
+    <string name="delete_data">Nire datuak ezabatu</string>
+    <string name="delete_data_body">Zure izena, ezarpenak eta estatistikak ezabatuko dira gailu honetatik. Online kontua dagoenean, kontua ere ezabatuko da.</string>
+    <string name="delete">Ezabatu</string>
+    <string name="version_info">%1$s bertsioa</string>
+    <string-array name="rank_names">
+        <item>Batekoa</item>
+        <item>Bikoa</item>
+        <item>Hirukoa</item>
+        <item>Laukoa</item>
+        <item>Bostekoa</item>
+        <item>Seikoa</item>
+        <item>Zazpikoa</item>
+        <item>Txanka</item>
+        <item>Zalduna</item>
+        <item>Erregea</item>
+    </string-array>
+    <string-array name="suit_names">
+        <item>urreko</item>
+        <item>kopako</item>
+        <item>ezpatako</item>
+        <item>bastoiko</item>
+    </string-array>
+</resources>

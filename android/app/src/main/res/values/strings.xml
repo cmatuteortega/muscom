@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por android/tools/gen_strings.py: no editar a mano. -->
+<resources>
+    <string name="app_name" translatable="false">Mus</string>
+    <string name="app_title">Mus</string>
+    <string name="tagline">Mus por parejas, a 8 reyes</string>
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Saltar</string>
+    <string name="start">Empezar</string>
+    <string name="onb1_title">Mus por parejas</string>
+    <string name="onb1_body">Juegas con tu compañero de enfrente contra la pareja rival. Gana la primera pareja que llegue a 40 tantos.</string>
+    <string name="onb2_title">Cuatro lances</string>
+    <string name="onb2_body">En cada mano se juegan grande, chica, pares y juego (o punto). Envida, quiere o lánzate al órdago.</string>
+    <string name="onb3_title">Señas con tu compañero</string>
+    <string name="onb3_body">Haz señas para contar a tu pareja qué llevas: sólo las ve tu compañero. Aquí no hay apuestas: los tantos son sólo puntuación.</string>
+    <string name="login_google_soon">Entrar con Google (próximamente)</string>
+    <string name="login_email_soon">Entrar con email (próximamente)</string>
+    <string name="login_guest_title">Jugar como invitado</string>
+    <string name="public_name">Nombre público</string>
+    <string name="public_name_hint">Entre 2 y 20 caracteres. Lo verán los demás jugadores.</string>
+    <string name="consent_analytics">Acepto enviar estadísticas de uso anónimas para mejorar el juego</string>
+    <string name="login_guest">Continuar</string>
+    <string name="no_gambling_notice">Juego sin dinero real: no hay apuestas, premios ni fichas canjeables.</string>
+    <string name="hello_name">Hola, %1$s</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Ajustes</string>
+    <string name="play_bots">Partida contra bots</string>
+    <string name="play_bots_desc">Tú y un bot compañero contra dos bots. Funciona sin conexión.</string>
+    <string name="play_now">Jugar</string>
+    <string name="level_facil">Fácil</string>
+    <string name="level_normal">Normal</string>
+    <string name="level_dificil">Difícil</string>
+    <string name="quick_match">Partida rápida</string>
+    <string name="quick_match_desc">Emparejamiento por nivel con jugadores reales</string>
+    <string name="private_room">Sala privada</string>
+    <string name="private_room_desc">Crea una mesa y comparte el enlace por WhatsApp</string>
+    <string name="leagues">Ligas de cuadrilla</string>
+    <string name="leagues_desc">Temporadas y clasificación con tus amigos</string>
+    <string name="shop">Tienda y Socio</string>
+    <string name="shop_desc">Barajas y tapetes. Sin cajas de botín.</string>
+    <string name="soon">PRÓXIMAMENTE</string>
+    <string name="proto_notice">Prototipo: las partidas online, el ranking y las compras llegarán en las próximas fases.</string>
+    <string name="soon_quick">La partida rápida con emparejamiento por rating (Glicko-2) llega en la fase 4. Si falta gente, los huecos se rellenan con bots.</string>
+    <string name="soon_private">Las salas privadas por código o enlace llegan con el servidor (fases 2 y 3).</string>
+    <string name="soon_leagues">Las ligas privadas con temporadas, clasificación e historial llegan en la fase 4.</string>
+    <string name="soon_shop">La suscripción Socio y los cosméticos (barajas y tapetes) llegan en la fase 5. Nada aleatorio de pago y nunca dinero real.</string>
+    <string name="bot_right">Koldo</string>
+    <string name="bot_partner">Maite</string>
+    <string name="bot_left">Rosi</string>
+    <string name="team_us">Nosotros</string>
+    <string name="team_them">Ellos</string>
+    <string name="history">Historial</string>
+    <string name="score_desc">%1$s: %2$d de %3$d tantos</string>
+    <string name="lance_grande">Grande</string>
+    <string name="lance_chica">Chica</string>
+    <string name="lance_pares">Pares</string>
+    <string name="lance_juego">Juego</string>
+    <string name="lance_punto">Punto</string>
+    <string name="phase_mus">Mus</string>
+    <string name="phase_descarte">Descarte</string>
+    <string name="phase_fin_mano">Fin de mano</string>
+    <string name="phase_fin_partida">Fin de partida</string>
+    <string name="short_ordago">Órdago</string>
+    <string name="short_paso">En paso</string>
+    <string name="short_querido">Querido %1$d</string>
+    <string name="short_no_querido">No quiso (%1$d)</string>
+    <string name="short_sin_apuesta">Sin envite</string>
+    <string name="short_no_hay">No hay</string>
+    <string name="badge_mano">MANO</string>
+    <string name="badge_dealer">Reparte</string>
+    <string name="badge_pares_si">Pares sí</string>
+    <string name="badge_pares_no">Pares no</string>
+    <string name="badge_juego_si">Juego sí</string>
+    <string name="badge_juego_no">Juego no</string>
+    <string name="discarded_n">Cambió %1$d</string>
+    <string name="discarding">Descartando…</string>
+    <string name="discard_done">Listo</string>
+    <string name="ordago_on_table">¡ÓRDAGO!</string>
+    <string name="bet_on_table">Envite: %1$d</string>
+    <string name="deje_info">Si no se quiere: %1$d</string>
+    <string name="mus_round">Ronda de mus %1$d</string>
+    <string name="hand_n">Mano %1$d</string>
+    <string name="my_points">%1$d puntos</string>
+    <string name="senas">Señas</string>
+    <string name="waiting_discards">Esperando descartes…</string>
+    <string name="waiting_for">Turno de %1$s…</string>
+    <string name="discard_hint">Toca las cartas que quieres cambiar</string>
+    <string name="discard_n">Descartar (%1$d)</string>
+    <string name="act_mus">Mus</string>
+    <string name="act_no_mus">No hay mus</string>
+    <string name="act_descarto">Cambio %1$d</string>
+    <string name="act_paso">Paso</string>
+    <string name="act_envido_n">Envido %1$d</string>
+    <string name="act_raise_n">%1$d más</string>
+    <string name="act_quiero">Quiero</string>
+    <string name="act_no_quiero">No quiero</string>
+    <string name="act_ordago">¡Órdago!</string>
+    <string name="act_quiero_ordago">¡Quiero el órdago!</string>
+    <string name="act_sena">%1$s</string>
+    <string name="next_hand">Siguiente mano</string>
+    <string name="rematch">Revancha</string>
+    <string name="you_win">¡Habéis ganado!</string>
+    <string name="you_lose">Han ganado ellos</string>
+    <string name="hand_end_n">Fin de la mano %1$d</string>
+    <string name="score_line">Nosotros %1$d – %2$d Ellos</string>
+    <string name="out_ordago_querido">Órdago querido</string>
+    <string name="out_paso">En paso</string>
+    <string name="out_querido">Querido a %1$d</string>
+    <string name="out_no_querido">No querido (+%1$d de deje)</string>
+    <string name="out_sin_apuesta">Sólo una pareja lo tiene: sin envite</string>
+    <string name="out_no_hay">Nadie tiene</string>
+    <string name="award_deje">deje</string>
+    <string name="award_apuesta">envite</string>
+    <string name="award_paso">en paso</string>
+    <string name="award_jugada">jugada</string>
+    <string name="award_ordago">órdago</string>
+    <string name="exit_title">¿Abandonar la partida?</string>
+    <string name="exit_body">Perderás esta partida. En las partidas online, abandonar penaliza.</string>
+    <string name="exit_confirm">Salir</string>
+    <string name="history_hand">Mano %1$d</string>
+    <string name="history_past">Manos anteriores</string>
+    <string name="history_hand_line">Mano %1$d: Nosotros +%2$d · Ellos +%3$d</string>
+    <string name="senas_title">Hacer una seña</string>
+    <string name="senas_hint">Sólo la ve tu compañero; los rivales no se enteran.</string>
+    <string name="partner_senas">Señas de %1$s:</string>
+    <string name="senas_left">Te quedan %1$d señas en esta mano</string>
+    <string name="sena_dos_reyes">Dos reyes</string>
+    <string name="sena_tres_reyes">Tres reyes</string>
+    <string name="sena_dos_ases">Dos ases</string>
+    <string name="sena_tres_ases">Tres ases</string>
+    <string name="sena_duples">Duples</string>
+    <string name="sena_medias">Medias</string>
+    <string name="sena_31">La 31</string>
+    <string name="sena_ciego">Ciego</string>
+    <string name="gesto_dos_reyes">Morder el labio inferior</string>
+    <string name="gesto_tres_reyes">Morder los dos labios</string>
+    <string name="gesto_dos_ases">Asomar la punta de la lengua</string>
+    <string name="gesto_tres_ases">Sacar la lengua de lado</string>
+    <string name="gesto_duples">Levantar las cejas</string>
+    <string name="gesto_medias">Torcer la boca</string>
+    <string name="gesto_31">Guiñar un ojo</string>
+    <string name="gesto_ciego">Cerrar los ojos</string>
+    <string name="card_name">%1$s de %2$s</string>
+    <string name="card_selected">%1$s, seleccionada</string>
+    <string name="rating_soon">Ranking Glicko-2 disponible con el juego online</string>
+    <string name="stat_played">Partidas jugadas</string>
+    <string name="stat_won">Ganadas</string>
+    <string name="stat_hands">Manos jugadas</string>
+    <string name="stat_streak">Racha actual / mejor</string>
+    <string name="stat_ordagos">Órdagos ganados / perdidos</string>
+    <string name="stat_points">Tantos a favor – en contra</string>
+    <string name="set_appearance">Apariencia</string>
+    <string name="set_theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="set_contrast">Alto contraste</string>
+    <string name="set_text_size">Tamaño del texto</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Grande</string>
+    <string name="size_xlarge">Muy grande</string>
+    <string name="set_game">Juego</string>
+    <string name="set_bot_speed">Velocidad de los bots</string>
+    <string name="speed_slow">Lenta</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Rápida</string>
+    <string name="set_reyes">Reyes</string>
+    <string name="reyes_8">8 reyes</string>
+    <string name="reyes_4">4 reyes</string>
+    <string name="set_target">Tantos por partida</string>
+    <string name="target_40">40</string>
+    <string name="target_30">30</string>
+    <string name="target_25">25</string>
+    <string name="set_turn_time">Tiempo por turno</string>
+    <string name="time_30">30 s</string>
+    <string name="time_60">60 s</string>
+    <string name="time_15">15 s</string>
+    <string name="set_sound">Sonido</string>
+    <string name="set_haptics">Vibración</string>
+    <string name="set_privacy">Privacidad</string>
+    <string name="privacy_summary">Este prototipo guarda tu nombre, ajustes y estadísticas sólo en el dispositivo. No envía datos personales a ningún servidor.</string>
+    <string name="delete_data">Borrar mis datos</string>
+    <string name="delete_data_body">Se borrarán tu nombre, ajustes y estadísticas de este dispositivo. Cuando haya cuenta online, también se borrará la cuenta.</string>
+    <string name="delete">Borrar</string>
+    <string name="version_info">Versión %1$s</string>
+    <string-array name="rank_names">
+        <item>As</item>
+        <item>Dos</item>
+        <item>Tres</item>
+        <item>Cuatro</item>
+        <item>Cinco</item>
+        <item>Seis</item>
+        <item>Siete</item>
+        <item>Sota</item>
+        <item>Caballo</item>
+        <item>Rey</item>
+    </string-array>
+    <string-array name="suit_names">
+        <item>oros</item>
+        <item>copas</item>
+        <item>espadas</item>
+        <item>bastos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+{
+  "name": "@muscom/mus-engine",
+  "version": "0.1.0",
+  "description": "Motor de reglas de Mus determinista y sin dependencias",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./bots": "./dist/bots/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "simulate": "npm run build && node dist/cli/simulate.js",
+    "play": "npm run build && node dist/cli/play.js",
+    "conformance": "npm run build && node dist/cli/conformance.js > conformance/vectors.json",
+    "typecheck": "tsc -p tsconfig.test.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,58 @@
+name: android-apk
+
+on:
+  push:
+    paths: ["android/**", "packages/mus-engine/conformance/**", ".github/workflows/android.yml"]
+  pull_request:
+    paths: ["android/**", "packages/mus-engine/conformance/**", ".github/workflows/android.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Tests unitarios (motor Kotlin + conformidad con el motor TS + capturas)
+        run: ./gradlew :app:testDebugUnitTest --stacktrace
+      - name: Compilar APK de prueba
+        run: ./gradlew :app:assembleDebug --stacktrace
+      - name: Renombrar APK
+        run: cp app/build/outputs/apk/debug/app-debug.apk "mus-proto-${{ github.run_number }}.apk"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mus-proto-apk-${{ github.run_number }}
+          path: android/mus-proto-${{ github.run_number }}.apk
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-reports-${{ github.run_number }}
+          path: |
+            android/app/build/reports/tests/
+            android/app/build/reports/paparazzi/
+      - name: Publicar prerelease "proto-latest" (descarga directa desde el móvil)
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="proto-latest"
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" "mus-proto-${{ github.run_number }}.apk" \
+            --prerelease --target "${{ github.sha }}" \
+            --title "Mus prototipo #${{ github.run_number }}" \
+            --notes "APK de prueba (debug) generada desde ${{ github.ref_name }} @ ${{ github.sha }}. Instálala en Android 8+ permitiendo 'orígenes desconocidos'."

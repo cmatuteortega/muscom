@@ -1,0 +1,29 @@
+name: mus-engine
+
+on:
+  push:
+    paths: ["packages/**", "package.json", "package-lock.json", ".github/workflows/engine.yml"]
+  pull_request:
+    paths: ["packages/**", "package.json", "package-lock.json", ".github/workflows/engine.yml"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck -w @muscom/mus-engine
+      - name: Tests
+        run: npm test -w @muscom/mus-engine
+      - name: Simulador (bots difícil vs normal)
+        run: npm run simulate -w @muscom/mus-engine -- --games 100 --a dificil --b normal --seed ci
+      - name: Los vectores de conformidad están al día
+        run: |
+          npm run conformance -w @muscom/mus-engine
+          git diff --exit-code packages/mus-engine/conformance/vectors.json

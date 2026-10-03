@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por android/tools/gen_strings.py: no editar a mano. -->
+<resources>
+    <string name="app_title">Mus</string>
+    <string name="tagline">Mus per parelles, a 8 reis</string>
+    <string name="back">Enrere</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="next">Següent</string>
+    <string name="skip">Omet</string>
+    <string name="start">Comença</string>
+    <string name="onb1_title">Mus per parelles</string>
+    <string name="onb1_body">Jugues amb el company del davant contra la parella rival. Guanya la primera parella que arribi a 40 punts.</string>
+    <string name="onb2_title">Quatre lances</string>
+    <string name="onb2_body">A cada mà es juguen grande, chica, parells i joc (o punt). Envida, vol o llança\'t a l\'òrdago.</string>
+    <string name="onb3_title">Senyes amb el company</string>
+    <string name="onb3_body">Fes senyes per dir al company què portes: només les veu ell. Aquí no hi ha apostes: els punts són només puntuació.</string>
+    <string name="login_google_soon">Entra amb Google (aviat)</string>
+    <string name="login_email_soon">Entra amb correu (aviat)</string>
+    <string name="login_guest_title">Juga com a convidat</string>
+    <string name="public_name">Nom públic</string>
+    <string name="public_name_hint">Entre 2 i 20 caràcters. El veuran els altres jugadors.</string>
+    <string name="consent_analytics">Accepto enviar estadístiques d\'ús anònimes per millorar el joc</string>
+    <string name="login_guest">Continua</string>
+    <string name="no_gambling_notice">Joc sense diners reals: no hi ha apostes, premis ni fitxes bescanviables.</string>
+    <string name="hello_name">Hola, %1$s</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Configuració</string>
+    <string name="play_bots">Partida contra bots</string>
+    <string name="play_bots_desc">Tu i un bot company contra dos bots. Funciona sense connexió.</string>
+    <string name="play_now">Juga</string>
+    <string name="level_facil">Fàcil</string>
+    <string name="level_normal">Normal</string>
+    <string name="level_dificil">Difícil</string>
+    <string name="quick_match">Partida ràpida</string>
+    <string name="quick_match_desc">Aparellament per nivell amb jugadors reals</string>
+    <string name="private_room">Sala privada</string>
+    <string name="private_room_desc">Crea una taula i comparteix l\'enllaç per WhatsApp</string>
+    <string name="leagues">Lligues de colla</string>
+    <string name="leagues_desc">Temporades i classificació amb els amics</string>
+    <string name="shop">Botiga i Soci</string>
+    <string name="shop_desc">Baralles i tapets. Sense caixes de botí.</string>
+    <string name="soon">AVIAT</string>
+    <string name="proto_notice">Prototip: les partides en línia, el rànquing i les compres arribaran en les properes fases.</string>
+    <string name="soon_quick">La partida ràpida amb aparellament per rating (Glicko-2) arriba a la fase 4. Si falta gent, els forats s\'omplen amb bots.</string>
+    <string name="soon_private">Les sales privades per codi o enllaç arriben amb el servidor (fases 2 i 3).</string>
+    <string name="soon_leagues">Les lligues privades amb temporades, classificació i historial arriben a la fase 4.</string>
+    <string name="soon_shop">La subscripció Soci i els cosmètics (baralles i tapets) arriben a la fase 5. Res aleatori de pagament i mai diners reals.</string>
+    <string name="bot_right">Koldo</string>
+    <string name="bot_partner">Maite</string>
+    <string name="bot_left">Rosi</string>
+    <string name="team_us">Nosaltres</string>
+    <string name="team_them">Ells</string>
+    <string name="history">Historial</string>
+    <string name="score_desc">%1$s: %2$d de %3$d punts</string>
+    <string name="lance_grande">Grande</string>
+    <string name="lance_chica">Chica</string>
+    <string name="lance_pares">Parells</string>
+    <string name="lance_juego">Joc</string>
+    <string name="lance_punto">Punt</string>
+    <string name="phase_mus">Mus</string>
+    <string name="phase_descarte">Descart</string>
+    <string name="phase_fin_mano">Final de mà</string>
+    <string name="phase_fin_partida">Final de partida</string>
+    <string name="short_ordago">Òrdago</string>
+    <string name="short_paso">En pas</string>
+    <string name="short_querido">Volgut %1$d</string>
+    <string name="short_no_querido">No volgut (%1$d)</string>
+    <string name="short_sin_apuesta">Sense envit</string>
+    <string name="short_no_hay">No n\'hi ha</string>
+    <string name="badge_mano">MÀ</string>
+    <string name="badge_dealer">Reparteix</string>
+    <string name="badge_pares_si">Parells sí</string>
+    <string name="badge_pares_no">Parells no</string>
+    <string name="badge_juego_si">Joc sí</string>
+    <string name="badge_juego_no">Joc no</string>
+    <string name="discarded_n">N\'ha canviat %1$d</string>
+    <string name="discarding">Descartant…</string>
+    <string name="discard_done">A punt</string>
+    <string name="ordago_on_table">ÒRDAGO!</string>
+    <string name="bet_on_table">Envit: %1$d</string>
+    <string name="deje_info">Si no es vol: %1$d</string>
+    <string name="mus_round">Ronda de mus %1$d</string>
+    <string name="hand_n">Mà %1$d</string>
+    <string name="my_points">%1$d punts</string>
+    <string name="senas">Senyes</string>
+    <string name="waiting_discards">Esperant descarts…</string>
+    <string name="waiting_for">Torn de %1$s…</string>
+    <string name="discard_hint">Toca les cartes que vols canviar</string>
+    <string name="discard_n">Descarta (%1$d)</string>
+    <string name="act_mus">Mus</string>
+    <string name="act_no_mus">No hi ha mus</string>
+    <string name="act_descarto">En canvio %1$d</string>
+    <string name="act_paso">Passo</string>
+    <string name="act_envido_n">Envido %1$d</string>
+    <string name="act_raise_n">%1$d més</string>
+    <string name="act_quiero">Vull</string>
+    <string name="act_no_quiero">No vull</string>
+    <string name="act_ordago">Òrdago!</string>
+    <string name="act_quiero_ordago">Vull l\'òrdago!</string>
+    <string name="act_sena">%1$s</string>
+    <string name="next_hand">Mà següent</string>
+    <string name="rematch">Revenja</string>
+    <string name="you_win">Heu guanyat!</string>
+    <string name="you_lose">Han guanyat ells</string>
+    <string name="hand_end_n">Final de la mà %1$d</string>
+    <string name="score_line">Nosaltres %1$d – %2$d Ells</string>
+    <string name="out_ordago_querido">Òrdago volgut</string>
+    <string name="out_paso">En pas</string>
+    <string name="out_querido">Volgut a %1$d</string>
+    <string name="out_no_querido">No volgut (+%1$d)</string>
+    <string name="out_sin_apuesta">Només una parella en té: sense envit</string>
+    <string name="out_no_hay">Ningú no en té</string>
+    <string name="award_deje">deixada</string>
+    <string name="award_apuesta">envit</string>
+    <string name="award_paso">en pas</string>
+    <string name="award_jugada">jugada</string>
+    <string name="award_ordago">òrdago</string>
+    <string name="exit_title">Abandonar la partida?</string>
+    <string name="exit_body">Perdràs aquesta partida. A les partides en línia, abandonar penalitza.</string>
+    <string name="exit_confirm">Surt</string>
+    <string name="history_hand">Mà %1$d</string>
+    <string name="history_past">Mans anteriors</string>
+    <string name="history_hand_line">Mà %1$d: Nosaltres +%2$d · Ells +%3$d</string>
+    <string name="senas_title">Fer una senya</string>
+    <string name="senas_hint">Només la veu el teu company; els rivals no se n\'adonen.</string>
+    <string name="partner_senas">Senyes de %1$s:</string>
+    <string name="senas_left">Et queden %1$d senyes en aquesta mà</string>
+    <string name="sena_dos_reyes">Dos reis</string>
+    <string name="sena_tres_reyes">Tres reis</string>
+    <string name="sena_dos_ases">Dos asos</string>
+    <string name="sena_tres_ases">Tres asos</string>
+    <string name="sena_duples">Duples</string>
+    <string name="sena_medias">Mitjanes</string>
+    <string name="sena_31">La 31</string>
+    <string name="sena_ciego">Cec</string>
+    <string name="gesto_dos_reyes">Mossegar el llavi inferior</string>
+    <string name="gesto_tres_reyes">Mossegar els dos llavis</string>
+    <string name="gesto_dos_ases">Treure la punta de la llengua</string>
+    <string name="gesto_tres_ases">Treure la llengua de costat</string>
+    <string name="gesto_duples">Aixecar les celles</string>
+    <string name="gesto_medias">Torçar la boca</string>
+    <string name="gesto_31">Picar l\'ullet</string>
+    <string name="gesto_ciego">Tancar els ulls</string>
+    <string name="card_name">%1$s de %2$s</string>
+    <string name="card_selected">%1$s, seleccionada</string>
+    <string name="rating_soon">Rànquing Glicko-2 disponible amb el joc en línia</string>
+    <string name="stat_played">Partides jugades</string>
+    <string name="stat_won">Guanyades</string>
+    <string name="stat_hands">Mans jugades</string>
+    <string name="stat_streak">Ratxa actual / millor</string>
+    <string name="stat_ordagos">Òrdagos guanyats / perduts</string>
+    <string name="stat_points">Punts a favor – en contra</string>
+    <string name="set_appearance">Aparença</string>
+    <string name="set_theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="set_contrast">Contrast alt</string>
+    <string name="set_text_size">Mida del text</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Gran</string>
+    <string name="size_xlarge">Molt gran</string>
+    <string name="set_game">Joc</string>
+    <string name="set_bot_speed">Velocitat dels bots</string>
+    <string name="speed_slow">Lenta</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Ràpida</string>
+    <string name="set_reyes">Reis</string>
+    <string name="reyes_8">8 reis</string>
+    <string name="reyes_4">4 reis</string>
+    <string name="set_target">Punts per partida</string>
+    <string name="target_40">40</string>
+    <string name="target_30">30</string>
+    <string name="target_25">25</string>
+    <string name="set_turn_time">Temps per torn</string>
+    <string name="time_30">30 s</string>
+    <string name="time_60">60 s</string>
+    <string name="time_15">15 s</string>
+    <string name="set_sound">So</string>
+    <string name="set_haptics">Vibració</string>
+    <string name="set_privacy">Privadesa</string>
+    <string name="privacy_summary">Aquest prototip desa el teu nom, configuració i estadístiques només al dispositiu. No envia dades personals a cap servidor.</string>
+    <string name="delete_data">Esborra les meves dades</string>
+    <string name="delete_data_body">S\'esborraran el teu nom, configuració i estadístiques d\'aquest dispositiu. Quan hi hagi compte en línia, també s\'esborrarà el compte.</string>
+    <string name="delete">Esborra</string>
+    <string name="version_info">Versió %1$s</string>
+    <string-array name="rank_names">
+        <item>As</item>
+        <item>Dos</item>
+        <item>Tres</item>
+        <item>Quatre</item>
+        <item>Cinc</item>
+        <item>Sis</item>
+        <item>Set</item>
+        <item>Sota</item>
+        <item>Cavall</item>
+        <item>Rei</item>
+    </string-array>
+    <string-array name="suit_names">
+        <item>ors</item>
+        <item>copes</item>
+        <item>espases</item>
+        <item>bastos</item>
+    </string-array>
+</resources>

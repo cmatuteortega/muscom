@@ -1,0 +1,17 @@
+{
+  "name": "muscom",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mus online — monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present",
+    "simulate": "npm run simulate -w @muscom/mus-engine --"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por android/tools/gen_strings.py: no editar a mano. -->
+<resources>
+    <string name="app_title">Mus</string>
+    <string name="tagline">Mus por parellas, a 8 reis</string>
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="next">Seguinte</string>
+    <string name="skip">Saltar</string>
+    <string name="start">Comezar</string>
+    <string name="onb1_title">Mus por parellas</string>
+    <string name="onb1_body">Xogas co teu compañeiro de enfronte contra a parella rival. Gaña a primeira parella que chegue a 40 tantos.</string>
+    <string name="onb2_title">Catro lances</string>
+    <string name="onb2_body">En cada man xóganse grande, chica, pares e xogo (ou punto). Envida, quere ou lánzate ao órdago.</string>
+    <string name="onb3_title">Sinais co teu compañeiro</string>
+    <string name="onb3_body">Fai sinais para contarlle á túa parella o que levas: só as ve o teu compañeiro. Aquí non hai apostas: os tantos son só puntuación.</string>
+    <string name="login_google_soon">Entrar con Google (proximamente)</string>
+    <string name="login_email_soon">Entrar con correo (proximamente)</string>
+    <string name="login_guest_title">Xogar como convidado</string>
+    <string name="public_name">Nome público</string>
+    <string name="public_name_hint">Entre 2 e 20 caracteres. Verano os demais xogadores.</string>
+    <string name="consent_analytics">Acepto enviar estatísticas de uso anónimas para mellorar o xogo</string>
+    <string name="login_guest">Continuar</string>
+    <string name="no_gambling_notice">Xogo sen diñeiro real: non hai apostas, premios nin fichas canxeables.</string>
+    <string name="hello_name">Ola, %1$s</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Axustes</string>
+    <string name="play_bots">Partida contra bots</string>
+    <string name="play_bots_desc">Ti e un bot compañeiro contra dous bots. Funciona sen conexión.</string>
+    <string name="play_now">Xogar</string>
+    <string name="level_facil">Fácil</string>
+    <string name="level_normal">Normal</string>
+    <string name="level_dificil">Difícil</string>
+    <string name="quick_match">Partida rápida</string>
+    <string name="quick_match_desc">Emparellamento por nivel con xogadores reais</string>
+    <string name="private_room">Sala privada</string>
+    <string name="private_room_desc">Crea unha mesa e comparte a ligazón por WhatsApp</string>
+    <string name="leagues">Ligas de pandilla</string>
+    <string name="leagues_desc">Tempadas e clasificación cos teus amigos</string>
+    <string name="shop">Tenda e Socio</string>
+    <string name="shop_desc">Barallas e tapetes. Sen caixas de botín.</string>
+    <string name="soon">PROXIMAMENTE</string>
+    <string name="proto_notice">Prototipo: as partidas en liña, o ranking e as compras chegarán nas próximas fases.</string>
+    <string name="soon_quick">A partida rápida con emparellamento por rating (Glicko-2) chega na fase 4. Se falta xente, os ocos énchense con bots.</string>
+    <string name="soon_private">As salas privadas por código ou ligazón chegan co servidor (fases 2 e 3).</string>
+    <string name="soon_leagues">As ligas privadas con tempadas, clasificación e historial chegan na fase 4.</string>
+    <string name="soon_shop">A subscrición Socio e os cosméticos (barallas e tapetes) chegan na fase 5. Nada aleatorio de pago e nunca diñeiro real.</string>
+    <string name="bot_right">Koldo</string>
+    <string name="bot_partner">Maite</string>
+    <string name="bot_left">Rosi</string>
+    <string name="team_us">Nós</string>
+    <string name="team_them">Eles</string>
+    <string name="history">Historial</string>
+    <string name="score_desc">%1$s: %2$d de %3$d tantos</string>
+    <string name="lance_grande">Grande</string>
+    <string name="lance_chica">Chica</string>
+    <string name="lance_pares">Pares</string>
+    <string name="lance_juego">Xogo</string>
+    <string name="lance_punto">Punto</string>
+    <string name="phase_mus">Mus</string>
+    <string name="phase_descarte">Descarte</string>
+    <string name="phase_fin_mano">Fin da man</string>
+    <string name="phase_fin_partida">Fin da partida</string>
+    <string name="short_ordago">Órdago</string>
+    <string name="short_paso">En paso</string>
+    <string name="short_querido">Querido %1$d</string>
+    <string name="short_no_querido">Non quixo (%1$d)</string>
+    <string name="short_sin_apuesta">Sen envite</string>
+    <string name="short_no_hay">Non hai</string>
+    <string name="badge_mano">MAN</string>
+    <string name="badge_dealer">Reparte</string>
+    <string name="badge_pares_si">Pares si</string>
+    <string name="badge_pares_no">Pares non</string>
+    <string name="badge_juego_si">Xogo si</string>
+    <string name="badge_juego_no">Xogo non</string>
+    <string name="discarded_n">Cambiou %1$d</string>
+    <string name="discarding">Descartando…</string>
+    <string name="discard_done">Listo</string>
+    <string name="ordago_on_table">ÓRDAGO!</string>
+    <string name="bet_on_table">Envite: %1$d</string>
+    <string name="deje_info">Se non se quere: %1$d</string>
+    <string name="mus_round">Rolda de mus %1$d</string>
+    <string name="hand_n">Man %1$d</string>
+    <string name="my_points">%1$d puntos</string>
+    <string name="senas">Sinais</string>
+    <string name="waiting_discards">Agardando descartes…</string>
+    <string name="waiting_for">Quenda de %1$s…</string>
+    <string name="discard_hint">Toca as cartas que queres cambiar</string>
+    <string name="discard_n">Descartar (%1$d)</string>
+    <string name="act_mus">Mus</string>
+    <string name="act_no_mus">Non hai mus</string>
+    <string name="act_descarto">Cambio %1$d</string>
+    <string name="act_paso">Paso</string>
+    <string name="act_envido_n">Envido %1$d</string>
+    <string name="act_raise_n">%1$d máis</string>
+    <string name="act_quiero">Quero</string>
+    <string name="act_no_quiero">Non quero</string>
+    <string name="act_ordago">Órdago!</string>
+    <string name="act_quiero_ordago">Quero o órdago!</string>
+    <string name="act_sena">%1$s</string>
+    <string name="next_hand">Seguinte man</string>
+    <string name="rematch">Revancha</string>
+    <string name="you_win">Gañastedes!</string>
+    <string name="you_lose">Gañaron eles</string>
+    <string name="hand_end_n">Fin da man %1$d</string>
+    <string name="score_line">Nós %1$d – %2$d Eles</string>
+    <string name="out_ordago_querido">Órdago querido</string>
+    <string name="out_paso">En paso</string>
+    <string name="out_querido">Querido a %1$d</string>
+    <string name="out_no_querido">Non querido (+%1$d de deixe)</string>
+    <string name="out_sin_apuesta">Só unha parella o ten: sen envite</string>
+    <string name="out_no_hay">Ninguén ten</string>
+    <string name="award_deje">deixe</string>
+    <string name="award_apuesta">envite</string>
+    <string name="award_paso">en paso</string>
+    <string name="award_jugada">xogada</string>
+    <string name="award_ordago">órdago</string>
+    <string name="exit_title">Abandonar a partida?</string>
+    <string name="exit_body">Perderás esta partida. Nas partidas en liña, abandonar penaliza.</string>
+    <string name="exit_confirm">Saír</string>
+    <string name="history_hand">Man %1$d</string>
+    <string name="history_past">Mans anteriores</string>
+    <string name="history_hand_line">Man %1$d: Nós +%2$d · Eles +%3$d</string>
+    <string name="senas_title">Facer un sinal</string>
+    <string name="senas_hint">Só a ve o teu compañeiro; os rivais non se decatan.</string>
+    <string name="partner_senas">Sinais de %1$s:</string>
+    <string name="senas_left">Quédanche %1$d sinais nesta man</string>
+    <string name="sena_dos_reyes">Dous reis</string>
+    <string name="sena_tres_reyes">Tres reis</string>
+    <string name="sena_dos_ases">Dous ases</string>
+    <string name="sena_tres_ases">Tres ases</string>
+    <string name="sena_duples">Duples</string>
+    <string name="sena_medias">Medias</string>
+    <string name="sena_31">A 31</string>
+    <string name="sena_ciego">Cego</string>
+    <string name="gesto_dos_reyes">Morder o beizo inferior</string>
+    <string name="gesto_tres_reyes">Morder os dous beizos</string>
+    <string name="gesto_dos_ases">Asomar a punta da lingua</string>
+    <string name="gesto_tres_ases">Sacar a lingua de lado</string>
+    <string name="gesto_duples">Levantar as cellas</string>
+    <string name="gesto_medias">Torcer a boca</string>
+    <string name="gesto_31">Chiscar un ollo</string>
+    <string name="gesto_ciego">Pechar os ollos</string>
+    <string name="card_name">%1$s de %2$s</string>
+    <string name="card_selected">%1$s, seleccionada</string>
+    <string name="rating_soon">Ranking Glicko-2 dispoñible co xogo en liña</string>
+    <string name="stat_played">Partidas xogadas</string>
+    <string name="stat_won">Gañadas</string>
+    <string name="stat_hands">Mans xogadas</string>
+    <string name="stat_streak">Racha actual / mellor</string>
+    <string name="stat_ordagos">Órdagos gañados / perdidos</string>
+    <string name="stat_points">Tantos a favor – en contra</string>
+    <string name="set_appearance">Aparencia</string>
+    <string name="set_theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="set_contrast">Alto contraste</string>
+    <string name="set_text_size">Tamaño do texto</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_large">Grande</string>
+    <string name="size_xlarge">Moi grande</string>
+    <string name="set_game">Xogo</string>
+    <string name="set_bot_speed">Velocidade dos bots</string>
+    <string name="speed_slow">Lenta</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Rápida</string>
+    <string name="set_reyes">Reis</string>
+    <string name="reyes_8">8 reis</string>
+    <string name="reyes_4">4 reis</string>
+    <string name="set_target">Tantos por partida</string>
+    <string name="target_40">40</string>
+    <string name="target_30">30</string>
+    <string name="target_25">25</string>
+    <string name="set_turn_time">Tempo por quenda</string>
+    <string name="time_30">30 s</string>
+    <string name="time_60">60 s</string>
+    <string name="time_15">15 s</string>
+    <string name="set_sound">Son</string>
+    <string name="set_haptics">Vibración</string>
+    <string name="set_privacy">Privacidade</string>
+    <string name="privacy_summary">Este prototipo garda o teu nome, axustes e estatísticas só no dispositivo. Non envía datos persoais a ningún servidor.</string>
+    <string name="delete_data">Borrar os meus datos</string>
+    <string name="delete_data_body">Borraranse o teu nome, axustes e estatísticas deste dispositivo. Cando haxa conta en liña, tamén se borrará a conta.</string>
+    <string name="delete">Borrar</string>
+    <string name="version_info">Versión %1$s</string>
+    <string-array name="rank_names">
+        <item>Ás</item>
+        <item>Dous</item>
+        <item>Tres</item>
+        <item>Catro</item>
+        <item>Cinco</item>
+        <item>Seis</item>
+        <item>Sete</item>
+        <item>Sota</item>
+        <item>Cabalo</item>
+        <item>Rei</item>
+    </string-array>
+    <string-array name="suit_names">
+        <item>ouros</item>
+        <item>copas</item>
+        <item>espadas</item>
+        <item>bastos</item>
+    </string-array>
+</resources>
